@@ -113,24 +113,25 @@ Details and rubric will be posted on GitHub.
 
 ## 📅 Weekly Schedule Overview
 
-| Week | Content | Dues |
-|------|--------|------|
-| W1 | Course overview; information systems | — |
-| W2 | Storage & computing basics | Assignment 1 |
-| W3 | Relational databases | — |
-| W4 | SQL fundamentals | Assignment 2 |
-| W5 | NoSQL & document databases | — |
-| W6 | Graph databases | — |
-| W7 | Graph modeling & visualization | Assignment 3 |
-| W8 | Review & Midterm | Midterm Exam |
-| W9 | Spring Break | — |
-| W10 | Vector databases & AI basics | — |
-| W11 | AI + databases | — |
-| W12 | Visualization & dashboards | — |
-| W13 | Ethics & responsible information systems | — |
-| W14 | Group project workshops | Group Project Due |
-| W15 | Final review | — |
-| Finals | Final examination period | Final Exam |
+
+| **Week**           | **Content**                                                                                                  | **Dues**                                |
+|---------------------|-------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| W1 (Jan 12–16)     | Course overview; what is information management/science; types of information systems (databases, graphs, AI systems) | —                                        |
+| W2 (Jan 19–23)     | Storage & computing basics: HDD vs SSD; RAM vs storage; latency concepts (MLK Day: no class Jan 19)        | —                                        |
+| W3 (Jan 26–30)     | Relational databases: tables, primary keys, foreign keys; introduction to SQL                              | —                                        |
+| W4 (Feb 2–6)       | SQL in practice: SELECT, JOIN, GROUP BY; reading and understanding queries                                 | Assignment 1                             |
+| W5 (Feb 9–13)      | NoSQL & document databases: JSON, MongoDB concepts; when to use NoSQL vs SQL                               | —                                        |
+| W6 (Feb 16–20)     | Graph databases: nodes, relationships, use cases (social networks, recommendations)                        | Assignment 2                             |
+| W7 (Feb 23–27)     | Graphs in practice: basic Cypher concepts; graph visualization and modeling                                | —                                        |
+| W8 (Mar 2–6)       | Review and assessment                                                                                      | Midterm Exam                             |
+| W9 (Mar 9–13)      | Spring Break (no classes)                                                                                  | —                                        |
+| W10 (Mar 16–20)    | Vector databases & AI basics: embeddings, similarity search, high-level RAG concepts                      | Assignment 3                             |
+| W11 (Mar 23–27)    | AI + databases: LLM usage, hallucinations, limitations, grounding information                              | —                                        |
+| W12 (Mar 30–Apr 3) | Visualization & dashboards: graphs, usability, evaluating visual information systems                       | —                                        |
+| W13 (Apr 6–10)     | Ethics & responsible information systems: bias, data quality, responsible AI                                | —                                        |
+| W14 (Apr 13–17)    | Group project workshops; in-class guidance and presentation prep                                           | —                                        |
+| W15 (Apr 20–24)    | Final review and course wrap-up (Classes end Apr 25)                                                       | Group Project Report & Presentation Due |
+| Finals (Apr 27–May 1)| Final examination period                                                                                   | Final Exam                               |
 
 ---
 
