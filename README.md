@@ -116,7 +116,7 @@ By the end of this course, students will be able to:
 
 | **Week**           | **Content**                                                                                                  | **Dues**                                |
 |---------------------|-------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| W1 (Jan 12–16)     | Course overview; what is information management/science; types of information systems (databases, graphs, AI systems) | —                                        |
+| W1 (Jan 12–16)    | Course overview; what is information management/science; types of information systems (databases, graphs, AI systems)<br>**Slides:** [View here](https://docs.google.com/presentation/d/1YqUecXh6fcnJhb2SrFX4RagzCDFTHxIXTMTg9xB8Has/edit?usp=sharing)<br>**Video:** [Watch here](https://youtu.be/UYzyv4Q2y2o) |                                                                                                                    |
 | W2 (Jan 19–23)     | Storage & computing basics: HDD vs SSD; RAM vs storage; latency concepts (MLK Day: no class Jan 19)        | —                                        |
 | W3 (Jan 26–30)     | Relational databases: tables, primary keys, foreign keys; introduction to SQL                              | —                                        |
 | W4 (Feb 2–6)       | SQL in practice: SELECT, JOIN, GROUP BY; reading and understanding queries                                 | Assignment 1                             |
