@@ -23,15 +23,15 @@ You are simulating the role of an Information Architect: designing the storage s
 
 You cannot build a system without data.
 
-* **Instructor Inputs:** I will provide each group with **5 "Seed Papers"** related to data fusion (e.g., urban planning, environmental science).
+* **Instructor Inputs:** I will provide each group with **5 "Seed Papers"** related to data fusion (e.g., urban planning, environmental science). [Link to the files](https://drive.google.com/drive/folders/1ida193bDjJFB1ZQ8Akg6O_Hcx_PrrJh2?usp=sharing)
 * **Group Inputs:** Your group may find additional relevant papers** using GVSU library resources or Google Scholar to expand the network.
-* **The Task:** You must read these 10 papers and manually extract structured information. You are doing the work of the "AI Extractor" described in modern research.
+* **The Task:** You must read these papers and extract structured information. You are doing the work of the "AI Extractor" described in modern research.
 
 
 
 ### Phase 2: Ontology & Schema Design (The Structure)
 
-You must design a database schema (Ontology) to store the extracted information. Your schema must explicitly handle the relationships shown in **Figure 3 of the project description**.
+You must design a database schema (Ontology) to store the extracted information. 
 
 **Required Entities to Model:**
 
@@ -51,8 +51,6 @@ You must design a database schema (Ontology) to store the extracted information.
 
 
 *U3 (Analysis):* Algorithmic assumptions or processing errors.
-
-
 
 
 
@@ -78,13 +76,13 @@ You must implement this in a software tool (e.g., Neo4j, PostgreSQL, or a Python
 
 ## 3. Deliverables
 
-### A. The Dataset (Spreadsheet/CSV) (will be 5 points in your midterm)
+### A. The Dataset (Spreadsheet/CSV) (will be 10 points in your midterm)
 
 Before importing into your system, submit the raw structured data you extracted from the 10 papers.
 
 * *Columns must include:* Paper Title, Dataset Name, Method Name, Uncertainty Type (U1/U2/U3), and Description.
 
-Sample excel will be provided
+[Sample excel](https://docs.google.com/spreadsheets/d/1Nkp6V2jpxQ-SMtyuCzLz_ia_z2fjhe_k/edit?usp=sharing&ouid=100433744693995346627&rtpof=true&sd=true)
 
 ### B. The System Prototype (Code/Database Export)
 
@@ -102,17 +100,17 @@ Submit your database file (SQL dump, GraphML export, or JSON file) and the queri
 
 ---
 
-## 4. Grading Rubric (Total: 100 Points)
+## 4. Grading Rubric (Total: 40 Points)
 
+| **Category**                              | **Criteria**                                                                                                                                                                                                                                      | **Points**       |
+|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| **Data Engineering** <br>(Midterm)        | **Extraction & Expansion** <br>• (8 pts) Accurate extraction of Data/Method/Uncertainty entities from the 5 instructor papers. <br>• (2 pts) Relevance and quality of additional papers found by the group.                                      | 10 (Midterm)     |
+| **System Design** <br>(Report)            | **Ontology & Schema** <br>• (5 pts) Database schema accurately links Data to Fusion Methods using a logical structure (Graph nodes or SQL tables). <br>**Uncertainty Modeling** <br>• (5 pts) Correct application of the "Three-Filter" framework (U1: Conception, U2: Measurement, U3: Analysis) within the schema. | 10               |
+| **Functionality** <br>(Demo)              | **Searchability** <br>• (7 pts) System successfully executes queries to discover relationships (e.g., "Show all methods fused with Census Data" or "List datasets with U2 uncertainty"). <br>**Implementation** <br>• (3 pts) Database populated with papers and runs without critical errors during demo. | 10               |
+| **Report Quality**                        | **Clarity & Documentation** <br>• (5 pts) Clear visualization of schema/ontology, professional writing, and concise explanation of design process.                                                                                               | 5                |
+| **Impress Me**                            | If I have an *aha* moment.                                                                                                                                                                                                                        | 5                |
+| **Total**                                 |                                                                                                                                                                                                                                                   | **40**           |
 
-
-| **Category**                          | **Criteria**                                                                                                                                                                                                                     | **Points** |
-|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| **Data Engineering**<br>(Evidenced in Report) | **Extraction & Expansion**<br>• (5 pts) Accurate extraction of Data/Method/Uncertainty entities from the 5 instructor papers.<br>• (4 pts) Relevance and quality of the 5 additional papers found by the group.               | 9         |
-| **System Design**<br>(Evidenced in Report)    | **Ontology & Schema**<br>• (5 pts) Database schema accurately links Data to Fusion Methods using a logical structure (Graph nodes or SQL tables).<br>**Uncertainty Modeling**<br>• (4 pts) Correct application of the "Three-Filter" framework (U1: Conception, U2: Measurement, U3: Analysis) within the schema. | 9         |
-| **Functionality**<br>(Evidenced in Demo)      | **Searchability**<br>• (5 pts) System successfully executes queries to discover relationships (e.g., "Show all methods fused with Census Data" or "List datasets with U2 uncertainty").<br>**Implementation**<br>• (3 pts) The database is populated with the 10 papers and runs without critical errors during the demo. | 8         |
-| **Report Quality**                            | **Clarity & Documentation**<br>• (4 pts) Clear visualization of the schema/ontology, professional writing, and a concise explanation of the design process.                                                                  | 4         |
-| **Total**                                    |                                                                                                                                                                                                                                 | **30**    |
 
 ---
 
@@ -122,7 +120,7 @@ Submit your database file (SQL dump, GraphML export, or JSON file) and the queri
 
 
 
-**For Uncertainty:** If a paper doesn't explicitly say "This is U2 uncertainty," use your judgment based on the definitions provided in class (e.g., "sensor noise" is U2; "model bias" is U3).
+**For Uncertainty:** If a paper doesn't explicitly say "This is an uncertainty/limitation," use your judgment based on the definitions provided in class (e.g., "sensor noise" is U2; "model bias" is U3).
 
 
 * **Tools:**
