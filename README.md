@@ -107,8 +107,10 @@ By the end of this course, students will be able to:
 ### Final Exam
 - In‑person, Cumulative
 - Emphasis on understanding, explanation, and interpretation
-- No large‑scale implementation
 
+
+---
+[bonus points tracker and project assignment](https://docs.google.com/spreadsheets/d/1Ef8Tl__P3t9nqIsTrQa-wXeqhCfFSCIUEV237Ksnz0I/edit?gid=0#gid=0)
 ---
 
 ## 📅 Weekly Schedule Overview
