@@ -110,7 +110,9 @@ By the end of this course, students will be able to:
 
 
 ---
+
 [bonus points tracker and project assignment](https://docs.google.com/spreadsheets/d/1Ef8Tl__P3t9nqIsTrQa-wXeqhCfFSCIUEV237Ksnz0I/edit?gid=0#gid=0)
+
 ---
 
 ## 📅 Weekly Schedule Overview
@@ -120,7 +122,7 @@ By the end of this course, students will be able to:
 |---------------------|-------------------------------------------------------------------------------------------------------------|------------------------------------------|
 | W1 (Jan 12–16)    | Course overview; what is information management/science; types of information systems (databases, graphs, AI systems)<br>[Slides](https://docs.google.com/presentation/d/1YqUecXh6fcnJhb2SrFX4RagzCDFTHxIXTMTg9xB8Has/edit?usp=sharing)<br>[Video](https://youtu.be/UYzyv4Q2y2o) <br>Course project, ontology and knowledge graph:<br>[Video](https://youtu.be/syBMQANHM_o)<br>[Slides](https://docs.google.com/presentation/d/1XMM2PJHL4IAQEpqoGo_ualhtnAHnX10B/edit?usp=drive_link&ouid=100433744693995346627&rtpof=true&sd=true)|                                                                                                                    |
 | W2 (Jan 19–23)     | Storage & computing basics: HDD vs SSD; RAM vs storage; latency concepts <br>[Slides](https://docs.google.com/presentation/d/1xrWSJMQR7UclwCq1ep7mA98URS9FDhyzWTT5sEmBzo0/edit?usp=sharing)    <br>[Video](https://youtu.be/fgLh-VhBugA)    | —                                        |
-| W3 (Jan 26–30)     | Relational databases: tables, primary keys, foreign keys <br>[Video](https://youtu.be/TFOcgP-CE1I) <br>[Slides](https://docs.google.com/presentation/d/1PTMNRntvNlgxwxLr5r3TDMlRFC5UkGh_/edit?usp=sharing&ouid=100433744693995346627&rtpof=true&sd=true); introduction to SQL                              | —                                        |
+| W3 (Jan 26–30)     | Relational databases: tables, primary keys, foreign keys <br>[Video](https://youtu.be/TFOcgP-CE1I) <br>[Slides](https://docs.google.com/presentation/d/1PTMNRntvNlgxwxLr5r3TDMlRFC5UkGh_/edit?usp=sharing&ouid=100433744693995346627&rtpof=true&sd=true); introduction to SQL    <br>[Video](https://youtu.be/LZNoObB7UJk) | —                                        |
 | W4 (Feb 2–6)       | SQL in practice: SELECT, JOIN, GROUP BY; reading and understanding queries                                 | Assignment 1                             |
 | W5 (Feb 9–13)      | NoSQL & document databases: JSON, MongoDB concepts; when to use NoSQL vs SQL                               | —                                        |
 | W6 (Feb 16–20)     | Graph databases: nodes, relationships, use cases (social networks, recommendations)                        | Assignment 2                             |
