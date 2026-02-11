@@ -85,19 +85,46 @@ Before importing into your system, submit the raw structured data you extracted 
 [Sample excel](https://docs.google.com/spreadsheets/d/1Nkp6V2jpxQ-SMtyuCzLz_ia_z2fjhe_k/edit?usp=sharing&ouid=100433744693995346627&rtpof=true&sd=true)
 
 ### B. The System Prototype (Code/Database Export)
+**Submission Method:** GitHub Repository Link
 
 Submit your database file (SQL dump, GraphML export, or JSON file) and the queries used to search it.
 
-* If you build a user interface (e.g., a simple Python Streamlit app or a web form), submit the code.
-* If you use a pure database approach, submit a script with **5 complex SQL or Cypher queries** that demonstrate the system's power.
+* **Option 1 (UI):** If you build a user interface (e.g., a simple Python Streamlit app or a web form), submit the source code.
+* **Option 2 (Database Script):** If you use a pure database approach, submit a script with **5 complex SQL or Cypher queries** that demonstrate the system's power. *Note: These must include the 3 specific "Stakeholder Queries" listed in the Final Report section below.*
 
 ### C. Final Report (5–6 Pages)
 
-1. **Ontology Design:** A diagram showing your nodes (Data, Method, Paper) and relationships. Explain how you modeled "Uncertainty."
-2. **Extraction Process:** Describe how you standardized the data. (e.g., "How did we decide what counts as U1 vs U2?").
-3. **Search Demonstration:** Screenshots of your system answering the specific queries listed in Phase 3.
-4. **Challenges:** Discuss the difficulty of converting unstructured text (PDFs) into structured rows/nodes.
+1.  **Ontology Design**
+    * Provide a diagram showing your nodes (`Data`, `Method`, `Paper`) and relationships.
+    * Explicitly explain how you modeled "Uncertainty" within this schema.
 
+2.  **Lifecycle Justification**
+    * *Requirement:* Describe your Data Lifecycle decisions in detail:
+        * **Extraction (Collection):** You converted unstructured text (PDFs) into structured rows. What was the hardest part of standardizing the 'Method Name' across different papers?
+        * **Modeling (Storage):** You chose a specific model (Graph or Relational). Explain *why* this model fits the 'Data Fusion' problem better than a simple Excel spreadsheet. *(Hint: Discuss how you handled the many-to-many relationships between Datasets and Methods).*
+
+3.  **Search Demonstration**
+    * Provide screenshots of your system answering the following three specific queries:
+        * **The 'Linkage' Query:** Find all Fusion Methods that have been applied to *both* 'Dataset A' and 'Dataset B'. *(Demonstrates graph traversal).*
+        * **The 'Uncertainty' Query:** Find all papers that report **U2 (Measurement)** uncertainty for a specific sensor type. *(Demonstrates filtering).*
+        * **The 'Discovery' Query:** Find the most 'popular' dataset in your graph (the one with the most connections to different methods). *(Demonstrates aggregation).*
+
+4.  **Challenges**
+    * Discuss the difficulty of converting unstructured text (PDFs) into structured rows/nodes.
+
+---
+
+## 4. Grading Rubric (Total: 50 Points)
+
+| Category | Criteria | Points |
+| :--- | :--- | :--- |
+| **Data Engineering**<br>*(Midterm)* | **Extraction & Expansion**<br>• (8 pts) Accurate extraction of Data/Method/Uncertainty entities from the 5 instructor papers.<br>• (2 pts) Relevance and quality of additional papers found by the group. | **10**<br>*(Midterm)* |
+| **System Design**<br>*(Report)* | **Ontology & Schema**<br>• (5 pts) Database schema accurately links Data to Fusion Methods using a logical structure (Graph nodes or SQL tables).<br><br>**Uncertainty Modeling & Lifecycle**<br>• (5 pts) Correct application of the "Three-Filter" framework (U1/U2/U3).<br>*(Assessment of PI-3 Lifecycle)*<br>• **High:** Justifies the Graph model by explaining that "Data Fusion" is inherently relational; clearly articulates extraction challenges.<br>• **Low:** Describes the database but does not explain *why* it was chosen over a flat file; ignores extraction challenges. | **10** |
+| **Functionality**<br>*(Demo)* | **Searchability & Analytics**<br>• (7 pts) System successfully executes queries to discover relationships.<br>*(Assessment of PI-2 Analytics)*<br>• **High:** Queries are syntactically correct and accurately answer the business questions. The 'Linkage' query correctly handles the join/traversal.<br>• **Low:** Queries return errors or irrelevant data (e.g., listing all methods instead of filtering).<br><br>**Implementation**<br>• (3 pts) Database populated with papers and runs without critical errors during demo. | **10** |
+| **Report Quality** | **Clarity & Documentation**<br>• (5 pts) Clear visualization of schema/ontology, professional writing, and concise explanation of design process. | **5** |
+| **Impress Me** | **Innovation**<br>• (5 pts) If the instructor has an *aha* moment (e.g., unique visualization, novel insight, or advanced UI). | **5** |
+| **Participation** | **Self and Peer Evaluation**<br>• (10 pts) Completed individually during the Final Exam. | **10**<br>*(Final Exam)* |
+| **TOTAL** | | **50** |
 ---
 
 ## 4. Grading Rubric (Total: 40 Points)
@@ -105,11 +132,14 @@ Submit your database file (SQL dump, GraphML export, or JSON file) and the queri
 | **Category**                              | **Criteria**                                                                                                                                                                                                                                      | **Points**       |
 |-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
 | **Data Engineering** <br>(Midterm)        | **Extraction & Expansion** <br>• (8 pts) Accurate extraction of Data/Method/Uncertainty entities from the 5 instructor papers. <br>• (2 pts) Relevance and quality of additional papers found by the group.                                      | 10 (Midterm)     |
-| **System Design** <br>(Report)            | **Ontology & Schema** <br>• (5 pts) Database schema accurately links Data to Fusion Methods using a logical structure (Graph nodes or SQL tables). <br>**Uncertainty Modeling** <br>• (5 pts) Correct application of the "Three-Filter" framework (U1: Conception, U2: Measurement, U3: Analysis) within the schema. | 10               |
-| **Functionality** <br>(Demo)              | **Searchability** <br>• (7 pts) System successfully executes queries to discover relationships (e.g., "Show all methods fused with Census Data" or "List datasets with U2 uncertainty"). <br>**Implementation** <br>• (3 pts) Database populated with papers and runs without critical errors during demo. | 10               |
+| **System Design** <br>(Report)            | **Ontology & Schema** <br>• (5 pts) Database schema accurately links Data to Fusion Methods using a logical structure (Graph nodes or SQL tables). <br>**Uncertainty Modeling** <br>• (5 pts) Correct application of the "Three-Filter" framework (U1: Conception, U2: Measurement, U3: Analysis) within the schema. High: Justifies the Graph model by explaining that "Data Fusion" is inherently relational (connecting disparate nodes); clearly articulates the "Unstructured to Structured" extraction challenges (e.g., synonymous method names). Low: Describes the database but does not explain why it was chosen over a flat file; ignores the extraction challenges. | 10               |
+| **Functionality** <br>(Demo)              | **Searchability** <br>• (7 pts) System successfully executes queries to discover relationships (e.g., "Show all methods fused with Census Data" or "List datasets with U2 uncertainty"). <br>**Implementation** <br>• (3 pts) Database populated with papers and runs without critical errors during demo. High: Queries are syntactically correct (SQL/Cypher) and accurately answer the business questions. The 'Linkage' query correctly handles the join/traversal.
+
+Low: Queries return errors or irrelevant data (e.g., listing all methods instead of filtering by dataset).| 10               |
 | **Report Quality**                        | **Clarity & Documentation** <br>• (5 pts) Clear visualization of schema/ontology, professional writing, and concise explanation of design process.                                                                                               | 5                |
 | **Impress Me**                            | If I have an *aha* moment.                                                                                                                                                                                                                        | 5                |
-| **Total**                                 |                                                                                                                                                                                                                                                   | **40**           |
+| **self and peer evaluation**                            | will be 10 points in your final exam                                                                                                                                                                                                                        | 10                |
+| **Total**                                 |                                                                                                                                                                                                                                                   | **50**           |
 
 
 ---
