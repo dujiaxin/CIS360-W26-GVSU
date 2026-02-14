@@ -52,7 +52,7 @@ You must design a database schema (Ontology) to store the extracted information.
 
 *U3 (Analysis):* Algorithmic assumptions or processing errors.
 
-
+[Read this for detailed explaination](https://authors.elsevier.com/a/1mcAu_LnESZj4F)
 
 ### Phase 3: System Implementation (The Build)
 
