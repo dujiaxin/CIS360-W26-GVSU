@@ -93,7 +93,7 @@ By the end of this course, students will be able to:
 - One final report (5–6 pages) and a short presentation
 - Focus on **conceptual design + light implementation**
 
-[Details and rubric udpated on Jan-14-2026](PROJECT.md).
+[Details and rubric udpated on Feb-13-2026](PROJECT.md).
 
 ---
 
