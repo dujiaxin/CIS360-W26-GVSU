@@ -129,7 +129,7 @@ By the end of this course, students will be able to:
 | W7 (Feb 23–27)     | other types of databases  [slides](https://docs.google.com/presentation/d/19kiNqMkcCODZKKI8uiDGiL8fBREJdepR/edit?usp=sharing&ouid=100433744693995346627&rtpof=true&sd=true)    | —                                        |
 | W8 (Mar 2–6)       | Review and assessment                                                                                      | Midterm Exam                             |
 | W9 (Mar 9–13)      | Spring Break (no classes)                                                                                  | —                                        |
-| W10 (Mar 16–20)    | Vector databases & AI basics: embeddings, similarity search, high-level RAG concepts                      | Assignment 3                             |
+| W10 (Mar 16–20)    | Vector databases & AI basics: embeddings, similarity search, high-level RAG concepts                      | [Assignment 3](https://lms.gvsu.edu/ultra/courses/_479954_1/outline/assessment/test/_19833788_1?courseId=_479954_1&gradeitemView=details)                             |
 | W11 (Mar 23–27)    | AI + databases: LLM usage, hallucinations, limitations, grounding information                              | —                                        |
 | W12 (Mar 30–Apr 3) | Visualization & dashboards: graphs, usability, evaluating visual information systems                       | —                                        |
 | W13 (Apr 6–10)     | Ethics & responsible information systems: bias, data quality, responsible AI                                | —                                        |
