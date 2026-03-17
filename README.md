@@ -132,8 +132,7 @@ By the end of this course, students will be able to:
 | W10 (Mar 16–20)    | Vector databases & AI basics: embeddings, similarity search, RAG concepts                      | [Assignment 3](https://lms.gvsu.edu/ultra/courses/_479954_1/outline/assessment/test/_19833788_1?courseId=_479954_1&gradeitemView=details)                             |
 | W11 (Mar 23–27)    | AI + databases: LLM usage, hallucinations, limitations, grounding information                              | —                                        |
 | W12 (Mar 30–Apr 3) | Visualization & dashboards: graphs, usability, evaluating visual information systems                       | —                                        |
-| W13 (Apr 6–10)     | Ethics & responsible information systems: bias, data quality, responsible AI    
-Apr 9th guest lecture: Lessons Learned from Legacy System Modernization array of engineers | —                                        |
+| W13 (Apr 6–10)     | Ethics & responsible information systems: bias, data quality, responsible AI;  Apr 9th guest lecture: Lessons Learned from Legacy System Modernization array of engineers | —                                        |
 | W14 (Apr 13–17)    | Group project workshops; in-class guidance and presentation prep                                           | —                                        |
 | W15 (Apr 20–24)    | Final review and course wrap-up (Classes end Apr 25)                                                       | [Group Project Report & Presentation Due](https://lms.gvsu.edu/ultra/courses/_479954_1/outline/assessment/test/_19834885_1?courseId=_479954_1&gradeitemView=details) |
 | Finals (Apr 27–May 1)| Final examination period                                                                                   | [Final Exam](https://lms.gvsu.edu/ultra/courses/_479954_1/outline/assessment/test/_20010521_1?courseId=_479954_1&gradeitemView=details)                               |
