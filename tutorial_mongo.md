@@ -169,8 +169,8 @@ Create `database.py`. This module manages the async MongoDB connection used by F
 from motor.motor_asyncio import AsyncIOMotorClient
 
 MONGO_URI = (
-    "mongodb+srv://mongoadmin:mongo985865"
-    "@cis360gvsu.yfiz4js.mongodb.net/?appName=CIS360GVSU"
+    "mongodb+srv://mongoadmin:replacewithyours"
+    "@cis360gvsu.yfiz4js.mongodb.net/?appName=replacewithyours"
 )
 DB_NAME = "data_fusion_kms"
 
