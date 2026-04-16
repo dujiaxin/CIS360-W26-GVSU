@@ -143,10 +143,10 @@ The driver is cached so Streamlit reuses one connection across reruns.
 import streamlit as st
 from neo4j import GraphDatabase
 
-NEO4J_URI      = "neo4j+s://406508c5.databases.neo4j.io"   # replace with yours
-NEO4J_USER     = "406508c5"                                  # replace with yours
-NEO4J_PASSWORD = "ltBLw-nl5IyRewPm6sjmvcKCfRx2POWsA4b_AfuglKc"  # replace with yours
-NEO4J_DATABASE = "406508c5"                                  # replace with yours
+NEO4J_URI      = "xxx"   # replace with yours
+NEO4J_USER     = "xxx"                                  # replace with yours
+NEO4J_PASSWORD = "xxx"  # replace with yours
+NEO4J_DATABASE = "xxx"                                  # replace with yours
 
 
 @st.cache_resource
